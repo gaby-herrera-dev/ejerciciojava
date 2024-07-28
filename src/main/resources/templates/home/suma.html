@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Suma</title>
+</head>
+<body>
+<form th:action="@{/resultado}" method="post">
+    <labe>Numero 1 </labe>
+    <input type="number" name="num1"placeholder="Primer número">
+    <br>
+    <label>Numero 2</label>
+    <input type="number" name="num2" placeholder="Segundo número">
+    <br>
+    <button type="submit">Sumar</button>
+</form>
+</body>
+</html>

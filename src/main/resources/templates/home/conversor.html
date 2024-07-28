@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor</title>
+</head>
+<body>
+<h1>Conversor de Unidades</h1>
+<form action="/convertir" method="post">
+    <label for="valor">Valor:</label>
+    <input type="text" id="valor" name="valor" required>
+    <label for="unidad">Unidad:</label>
+    <select id="unidad" name="unidad">
+        <option value="km">Kilómetros</option>
+        <option value="millas">Millas</option>
+    </select>
+    <button type="submit">Convertir</button>
+</form>
+</body>
+</html>
